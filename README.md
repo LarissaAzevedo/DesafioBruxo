@@ -16,4 +16,4 @@ Desafio é criar uma página que exiba os dados dos personagens de Harry Potter 
 - Utilizar a imagem do personagem
 - Listar os 10 primeiros e ao clicar no botão "Exibir mais" carregar mais 10 personagens
 
-Pode fazer o desafio no seu tempo, quando terminar, abra uma issue e contate-me em [https://www.instagram.com/usakimodoki/?hl=pt-br](Insta/Usakimodoki) avisando que terminou o desafio, então faremos o code review em uma call para mentorá-lo sobre seu desempenho e próximos passos.
+Pode fazer o desafio no seu tempo, quando terminar, abra uma issue e contate-me em [Insta/Usakimodoki](https://www.instagram.com/usakimodoki/?hl=pt-br) avisando que terminou o desafio, então faremos o code review em uma call para mentorá-lo sobre seu desempenho e próximos passos.
