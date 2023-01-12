@@ -1,6 +1,7 @@
 import styled from "styled-components"
 
 export const Card = ({ character }) => {
+
     return (
         <CardWrapper>
             <div className="card-header">
@@ -9,7 +10,20 @@ export const Card = ({ character }) => {
             <div className="card-body">
                 <div className="data">
                     <span>Name - <strong>{character.name}</strong></span>
-                    <span>House - <strong>{character.house}</strong></span>
+                    <span>House - 
+                        {
+                            character.house == "Gryffindor" && <strong style={{backgroundColor: '#B20506', padding: '0.2rem'}}>{character.house}</strong>
+                        }
+                        {
+                            character.house == "Slytherin" && <strong style={{backgroundColor: '#008B32', padding: '0.2rem'}}>{character.house}</strong>
+                        }
+                        {
+                            character.house == "Hufflepuff" && <strong style={{backgroundColor: '#DECF0F', padding: '0.2rem'}}>{character.house}</strong>
+                        }
+                        {
+                            character.house == "Ravenclaw" && <strong style={{backgroundColor: '#113174', padding: '0.2rem'}}>{character.house}</strong>
+                        }
+                    </span>
                     <span>Ancestry - <strong>{character.ancestry == '' ? 'Not Available' : character.ancestry}</strong></span>
                 </div>
             </div>
@@ -45,7 +59,7 @@ const CardWrapper = styled.div`
             display: flex;
             align-items: center;
             flex-direction: column;
-            gap: 0.2rem;
+            gap: 0.5rem;
             font-family: 'Sofia Sans', sans-serif;
             color: var(--white);
         }
