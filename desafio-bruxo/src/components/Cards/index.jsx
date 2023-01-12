@@ -25,7 +25,7 @@ export const Cards = () => {
     return (
         <Container sx={{marginTop: '4rem'}}>
 
-            <Select />
+            <Select setCharacters={setCharacters}/>
 
             <CardsWrapper>
                 {
